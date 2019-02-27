@@ -1,0 +1,109 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Тег DIV</title>
+  <style type="text/css">
+    .block1 {
+      width: 200px;
+      background: #ccc;
+      padding: 5px;
+      padding-right: 20px;
+      border: solid 1px black;
+      float: left  }
+    .block2 {
+      width: 200px;
+      background: #ccc;
+      padding: 5px;
+      padding-right: 20px;
+      border: solid 1px black;
+      float: left  }
+    .block3 {
+      width: 200px;
+      background: #ccc;
+      padding: 5px;
+      padding-right: 20px;
+      border: solid 1px black;
+      float: left  }
+    .block4 {
+      width: 200px;
+      background: #ccc;
+      padding: 5px;
+      padding-right: 20px;
+      border: solid 1px black;
+      float: left  }
+  </style>
+</head>
+<body> <div class="block1"><body>
+<en>Поле со списком</en>  <form action="handler.php" name="form">
+  <en><select name="select">
+    <option selected value="s1">Вариант_1</option>
+    <option value="s2">Вариант_2</option>
+    <option value="s3">Вариант_3</option>
+    <option value="s4">Вариант_4</option>
+    <option value="s5">Вариант_5</option>
+  </select></en>
+</form>
+</body>
+  <p>Поле со списком</p>  <form action="handler.php" name="form">
+    <select name="select" size="3" multiple>
+      <option selected value="s1">Вариант_1</option>
+      <option value="s2">Вариант_2</option>
+      <option value="s3">Вариант_3</option>
+      <option value="s4">Вариант_4</option>
+      <option value="s5">Вариант_5</option>
+    </select>
+    <body>
+    <form action="handler.php">
+
+      <p>Цвет: <input type="color" name="bg" value="0">
+        <input type="submit" value="Выбрать"></p>
+    </form>
+    <body></div>
+<div class="block2"> <body>
+<form>
+  <p><input type="search" name="text">
+    <input type="submit" value="Найти"></p>
+</form>
+</body>
+  <body>
+  <form action="handler.php">
+    <p><b>Многострочный текст</b></p>
+    <p><textarea name="comment"></textarea></p>
+  </form>
+  </body>
+
+  <body>
+  <form enctype=multipart/form-data" method="post">
+    <em><input type="file" name="f">
+    </em>
+  </form>
+  </body></div>
+<div class="block3"><body>
+<input type="number" name="num" size="3"  min="3" max="10" value="3">
+</body>
+  <body>
+  <form action="handler.php">
+    <input type="radio" name="radio button" value="r_1"> radio button 1<Br>
+    <input type="radio" name="radio button" value="r_2"> radio button 2<Br>
+    <input type="radio" name="radio button" value="r_3"> radio button 3<Br>
+    <input type="radio" name="radio button" value="r_4"> radio button 4<Br>
+    <input type="radio" name="radio button" value="r_5"> radio button 5<Br>
+    <input type="submit" value="Отправить">
+  </form>
+  </body></div>
+<div class="block2"><body>
+<script>
+  function sizePic(){
+    size = document.getElementById("size").value;
+    img =  document.getElementById("pic");
+    img.width = 60 + 20*size;
+  }
+</script>
+<input type="range" min="1" max="5" id="size" oninput="sizePic()" value="2">
+<img src="g.jpg" alt="2" id="pic">
+<p><input type="button" value=" Очистить "></p>
+</body></div>
+
+</body>
+</html>
