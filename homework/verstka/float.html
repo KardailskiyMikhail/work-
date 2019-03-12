@@ -5,58 +5,73 @@
     <title>Тег DIV</title>
     <style type="text/css">
         .block1 {
-            width: 100%;
+            width: 1300px;
             height: 40px;
             background: 	#ffffff;
             border: solid 1px black;
-            float: none;}
+            float: left;
+            text-align: center
+        }
         .block2 {
-            width: auto ;
+            width: 649px;
             height: 360px;
-            background: 	#ffffff;
+            background: 	#ccc;
             border: solid 1px black;
-            float: left;}
+            border-right: 0px;
+            float: left;
+            margin: 0;
+            text-align: center;
+        }
+
+
         .block3 {
-            width: 50% - 2px ;
+            width: 650px;
             height: 180px;
-            background: #ffffff;
             border: solid 1px black;
-            float: center; }
+            background: #ccc;
+            text-align: center;
+            float: left;
+        }
         .block4 {
-            width: 80$;
+            width: 24%;
             height: 180px;
             background: #ffffff;
             border: solid 1px black;
-            float: right;  }
+            float: left;
+            text-align: center;
+        }
         .block5 {
-            width: 25% - 2px;
+            width: 24%;
             height: 180px;
             background: #ffffff;
             border: solid 1px black;
-            float: right;  }
+            float: left;
+            text-align: center;
+        }
 
     </style>
 </head>
 <body>
-<div align="center" class="block1">
+<div class="block1">
     <p>"Динозавры"</p>
 </div>
 
-    <div align="center" class="block2">
+    <div class="block2">
         <figure>
-            <img src="t-rex-skeleton.jpg" title="скелет динозавра" width="600" height="313">
+            <img src="t-rex-skeleton.jpg" title="скелет динозавра" width="593" height="313">
             <figcaption>Скелет динозавра T-Rex</figcaption>
         </figure>
     </div>
-<div align="center" class="block3">
+<div class="parent">
+<div class="block3">
     <p>Динозавры</p>
 </div>
 
-<div align="center" class="block4">
+<div class="block4">
     <p>Вес 300</p>
 </div>
 
-<div align="center" class="block5">
+<div class="block5">
     <p>Рост 1000</p>
 </div>
 

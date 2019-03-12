@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Тег DIV</title>
+    <style type="text/css">
+        .block1 {
+            width: 100%;
+            height: 40px;
+            background: 	#ffffff;
+            border: solid 1px black;
+            float: left;
+            text-align: center
+        }
+        .block2 {
+            width: 50%;
+            height: 360px;
+            background: 	#ccc;
+            border: solid 1px black;
+            border-right: 0px;
+            float: left;
+            margin: 0;
+            text-align: center;
+        }
+
+        .flex-conteiner{display: flex
+;}
+        .flex-block{ flex-grow: 1;}
+
+    </style>
+</head>
+<body>
+<div class="block1">
+    <p>"Динозавры"</p>
+</div>
+
+<div class="block2">
+    <figure>
+        <img src="t-rex-skeleton.jpg" title="скелет динозавра" width="593" height="313">
+        <figcaption>Скелет динозавра T-Rex</figcaption>
+    </figure>
+</div>
+<div class="flex-conteiner">
+
+ <div class="flex-block">Динозавры</div>
+
+<div class="flex-block">Вес 300</div>
+
+<div class="flex-block">Рост 100</div>
+</div>
+
+</body>
+</html>
