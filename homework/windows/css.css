@@ -1,0 +1,38 @@
+.window
+{display: flex;
+width: 60px;
+    height: 40px;
+margin: auto;
+flex-wrap: wrap}
+
+.window1
+{border: solid 1px black;
+    width: 50%;
+    height: 20px;}
+.window2
+{border: solid 1px black;
+    width: 50%;
+    height: 20px;}
+.window3
+{border: solid 1px black;
+    width: 50%;
+    height: 20px;}
+.window4
+{border: solid 1px black;
+    width: 50%;
+    height: 20px;}
+
+.text:hover {
+    font-size: 50%;
+    transform: scale(1);
+    transition: .2s;
+}
+.window {
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;}
+.window:hover {
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

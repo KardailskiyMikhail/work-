@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css.css" rel="stylesheet">
+    <style>
+        .window {
+            /*генерирует flex-контейнер уровня блока*/
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            width: 100px;
+            height: 100px;
+            justify-content: space-around;
+            transform: perspective(35px) rotateY(-5deg);
+
+
+        }
+
+        .window1 {
+            width: 49%;
+            height: 49%;
+            background: #00adef;
+            border: none;
+
+        }
+
+        .window2 {
+            width: 49%;
+            height: 49%;
+            border: none;
+            background: #00adef;
+
+        }
+
+        .window3 {
+            width: 49%;
+            height: 49%;
+            border: none;
+            background: #00adef;
+
+        }
+
+        .window4 {
+            width: 49%;
+            height: 49%;
+            border: none;
+            background: #00adef;
+
+        }
+
+
+        .text {
+            float: right;
+            margin-right: 800px;
+            margin-top: -40px;
+            margin-left: -50px;
+        }
+
+        p {
+            font-family: Arial, serif;
+            font-size: 400%;
+            color: #00adef;
+            transform: scale(1);
+            transition: .5s;
+
+        }
+    </style>
+</head>
+<body>
+<div class="text"><p>Windows </p></div>
+<div class="window">
+    <div class="window1"></div>
+    <div class="window2"></div>
+    <div class="window3"></div>
+    <div class="window4"></div>
+
+</div>
+
+
+</body>
+</html>
