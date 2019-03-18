@@ -1,0 +1,22 @@
+﻿a {
+    background-image: url(g.png);
+    background-repeat: no-repeat;
+    height: 98px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+a.instagram {
+    background-position: left top;
+}
+a.facebook {
+    background-position: -100px top;
+}
+a.youtube {
+    background-position: -200px top;
+}
+
+a:hover {
+    background-position-y: bottom;
+}
+
