@@ -1,3 +1,10 @@
-﻿var gulp = require('gulp'), //подключаем сам галп
+﻿var gulp = require('gulp');
+var sass = require('gulp-sass');
 
-    sass = require('gulp-sass'); // подключаем sass пакет
+sass.compiler = require('node-sass');
+
+gulp.task('sass', function () {
+    return gulp.src('./scss/css.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./css'));
+});
